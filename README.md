@@ -2,7 +2,7 @@
 
 ![#f03c15](https://placehold.it/15/ffff00/000000?text=+) **★ 声明：本项目的创建者与一切销售或推广的人员无任何合作关系。**
 
-使用后，若觉得效果不错，欢迎点击右上角的"★ Star" (#^.^#)
+使用后，若觉得效果不错，或者能在学习上帮助到您，欢迎点击右上角的"★ Star" (#^.^#)
 
 
 # 茶饮销售系统
@@ -40,7 +40,9 @@
 
 
 ## 配置文件
+
 db.properties：数据库连接文件，默认账号密码 root 123456
+
 my.conf：主要存放前屏显示窗口的人气饮品图片路径，还有后台管理员的加密密码，密码采用base32加密
 
 ## 设计图
@@ -58,22 +60,28 @@ ER图
 
 
 ## 系统截图
+
 登录界面
 ![登录界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/login.jpg) 
 
 前台主界面
+
 ![主界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/main.jpg) 
 
 前屏界面
+
 ![主界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/front.jpg) 
 
 后台界面
+
 ![后台界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/manage.jpg) 
 
 饮品管理界面
+
 ![饮品管理界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/drink.jpg) 
 
 统计界面
+
 ![统计界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/seal.jpg) 
 
 

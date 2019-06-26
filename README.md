@@ -79,3 +79,6 @@ ER图
 
 # 协议
 [Apache Licence 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+# 个人博客
+iamkb's vblog: http://www.iamkb.cn/

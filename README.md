@@ -62,6 +62,7 @@ ER图
 ## 系统截图
 
 登录界面
+
 ![登录界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/login.jpg) 
 
 前台主界面

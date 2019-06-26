@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="cn.time.mapper.MemberMapper" >
+
+	<select id="findAll" resultType="cn.time.entity.Member">
+	select * from tb_member 
+	</select>
+
+	
+	<select id="queryLike"  resultType="cn.time.entity.Member">
+	select * from tb_member where m_id like  '%${m_id}%' or name like '%${name}%'
+	</select>
+
+		
+	<update id="upDateMember" >
+	 update tb_member
+        <set>
+            <if test="#{memb.m_id} != null">m_id=#{memb.m_id},</if>
+            <if test="#{memb.name} != null">name=#{memb.name},</if>
+            <if test="#{memb.sex} != null">sex=#{memb.sex},</if>
+            <if test="#{memb.point} != null">point=#{memb.point}</if>
+        </set>
+        where m_id=#{om_id}
+	</update>
+	
+	
+	<delete id="delMember" >
+	delete from tb_member where m_id =#{m_id}
+	</delete>
+
+	
+	<insert id="addMember" >
+		insert into tb_member 
+		values(#{memb.m_id},#{memb.name},#{memb.sex},#{memb.point})
+	</insert>
+	
+	
+	
+</mapper>
+
+

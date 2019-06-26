@@ -14,10 +14,10 @@
 用Mybatis作为数据库框架,JFreeChart图表生成工具
 
 ## 界面结构
-系统的功能分为三个界面
-- 员工下单界面
-- 顾客查看界面
-- 管理员后台界面
+系统的功能分为三个界面，前后台分离，双屏显示
+- 员工下单界面，在后屏供显示供管理员进行操作
+- 前屏显示界面,在前屏显示，供顾客查看订单信息
+- 管理员后台界面,在另外的电脑内显示，供管理员对系统进行管理
 
 ## 系统功能
 
@@ -47,34 +47,34 @@ my.conf：主要存放前屏显示窗口的人气饮品图片路径，还有后�
 本系统的功能模块图如下
 
 数据流图
-![数据流图]() 
+![数据流图](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/flow.jpg) 
 
 ER图
-![ER图]() 
+![ER图](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/er.jpg) 
 
 模块图
-![模块图]() 
+![模块图](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/structure.jpg) 
 
 
 
 ## 系统截图
 登录界面
-![登录界面]() 
+![登录界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/login.jpg) 
 
 前台主界面
-![主界面]() 
+![主界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/main.jpg) 
 
 前屏界面
-![主界面]() 
+![主界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/front.jpg) 
 
 后台界面
-![后台界面]() 
+![后台界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/manage.jpg) 
 
 饮品管理界面
-![饮品管理界面]() 
+![饮品管理界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/drink.jpg) 
 
 统计界面
-![统计界面]() 
+![统计界面](https://github.com/zhukangHong/DrinkSeal/blob/master/readmeImg/seal.jpg) 
 
 
 # 协议
